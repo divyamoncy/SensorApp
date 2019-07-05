@@ -112,7 +112,7 @@ public class MainActivity<bluetoothAdapter> extends AppCompatActivity implements
             // There are paired devices. Get the name and address of each paired device.
             for (BluetoothDevice device : pairedDevices) {
                 String deviceName = device.getName();
-                String deviceHardwareAddress = device.getAddress();// MAC address
+//                String deviceHardwareAddress = device.getAddress();// MAC address
                 Toast.makeText(getApplicationContext(), deviceName, Toast.LENGTH_SHORT).show();
                 Log.d("pairedDevices", deviceName);
 
