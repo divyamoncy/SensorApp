@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="error_no_sensor">No sensor</string>
+    <string name="label_light">%1f</string>
+</resources>
